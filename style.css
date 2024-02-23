@@ -1,5 +1,4 @@
 body {
-    width: 1000px;
 margin: 0% auto;
 }
 
@@ -27,6 +26,7 @@ ul {
 .flex {
     display: inline;
     margin-left: 200px;
+    margin-right: 100px;
     font-size: 18px;
     color: rgb(3, 3, 182);
 }
@@ -56,8 +56,8 @@ a{
 /*以下画像のCSS*/
 
 .image {
-    width: 450px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     display: inline;
     float: right;
     z-index: 10;
@@ -68,18 +68,18 @@ a{
 /*以下青線のCSS*/
 
 .border {
-    width: 700px;
-    height: 180px;
+    width: 1000px;
+    height: 200px;
     background-color: rgb(3, 3, 182);
     margin: 0;
     z-index: 0;
     position: absolute;
-    top: 40%;
+    top: 60%;
 }
 
 .p {
     font-size: 50px;
     padding: 0%;
     position: absolute;
-    top: 25%;
+    top: 45%;
 }
